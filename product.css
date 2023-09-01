@@ -1,0 +1,88 @@
+body{
+    padding-top: 30px;
+}
+
+.contact{
+    position: fixed;
+    right: 0;
+    top:30%;
+    background-color: black;
+    opacity: 0.3;
+    padding: 0 5px;
+    z-index: 1;
+}
+
+.contact li{
+    margin: 10px 0;
+}
+
+.contact i{
+    font-size: 30px;
+    color: white;
+}
+.wrap{
+    width: 900px;
+    margin: auto;
+    display: flex;
+
+}
+
+.item{
+    width: 100%;
+    margin: 10px;
+    border: 1px solid black;
+    padding: 5px;
+    position: relative;
+}
+
+.item img{
+    width: 100%;
+}
+
+.tab{
+    background-color: red;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bolder;
+    position: absolute;
+    padding: 10px;
+    left: 0px;
+    top: 0px;
+}
+
+.tab:hover{
+    color: yellow;
+    font-size: 20px;
+}
+
+.item h2{
+    font-size: 30px;
+}
+
+.list{
+    width: 100%;
+    background-color: black;
+    opacity: 0.3;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 1;
+}
+.list a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    margin: 0 10px;
+    display: inline-block;
+    padding: 10px;
+}
+
+/* .toTop{
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    background-color: rgba(0, 0, 0, 0.2);
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+} */

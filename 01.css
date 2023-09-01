@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.col{
+    background-color: rgb(197, 240, 197);
+    margin: 10px;
+    width: 200px;
+    float: left;
+    padding: 10px;
+}
+
+.col h3{
+    text-align: center;
+    font-size: 3em;
+}
+.col img{
+    width: 100%;
+    padding: 0;
+}
+
+.container{
+    width: 720px;
+    background-color: antiquewhite;
+    margin: 10px auto;
+}
+
+.clear-block{
+    clear: both;
+}
