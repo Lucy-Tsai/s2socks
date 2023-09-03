@@ -77,6 +77,10 @@ body{
     padding: 10px;
 }
 
+.list a:hover{
+    background-color: red;
+}
+
 /* .toTop{
     position: fixed;
     right: 10px;

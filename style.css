@@ -1,0 +1,104 @@
+body{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.header{
+    display: flex;
+    padding: 5px 0;
+    background-color: rgb(250, 155, 187);
+}
+
+.header img{
+    margin: 0 10px;
+}
+
+.header nav{
+    text-align: right;
+    width: 100%;
+    font-size: 0;
+    margin: 10px 10px 0px 0px ;
+}
+
+.header nav a{
+    display: inline-block;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 20px 10px;
+    color: aliceblue;
+}
+
+.header nav a:hover{
+    background-color: aliceblue;
+    color: palevioletred;
+}
+.banner{
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.banner img{
+    margin: 0 auto;
+}
+
+.wrap{
+    display: flex;
+    margin-top: 1%;
+}
+
+.wrap .news{
+    width: 47%;
+    height: 300px;
+    border: 2px dashed pink;
+    padding: 1%;
+}
+
+.wrap .news>h2{
+    text-align: center;
+    font-size: 40px;
+    animation: 'colorful' 4s ease-in-out infinite;
+    -webkit-animation: 'colorful' 4s ease-in-out infinite;
+}
+
+@keyframes colorful{
+    0%{color: red;}
+    25%{color: rgb(255, 119, 119);}
+    50%{color: rgb(255, 255, 255);}
+    75%{color: rgb(255, 119, 119);}
+    100%{color: red;}
+}
+
+.news >ul{
+    background-color: rgba(239, 162, 188, 0.539);
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    /* width: 100%; */
+}
+
+.news li >a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.news li >a:hover {
+    color: palevioletred
+}
+
+.news li{
+    border-bottom:2px dotted palevioletred;
+    line-height: 1.5em;
+    font-size: 18px;
+    padding-top:10px ;
+    color: aliceblue;
+}
+
+.news li::before{
+    content:"#" ;
+}
+
+.adimg{
+    position: absolute;
+    left: 50%;
+    padding-top: 10px;
+}
