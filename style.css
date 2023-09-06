@@ -3,11 +3,13 @@
     width: 100%;
     display: flex;
     padding: 3px 0;
-    background-color: rgb(250, 155, 187);
+    background-color: #c30d23;
 }
 
 .header img{
-    margin: 0 10px;
+    /* margin: 0 10px; */
+    width: 80px;
+    height: 80px;
 }
 
 .header nav{
@@ -23,12 +25,12 @@
     font-size: 18px;
     padding: 20px 10px;
     color: aliceblue;
-    transition: all .5s .3s;
+    transition: all .3s .1s;
 }
 
 .header nav a:hover{
-    background-color: aliceblue;
-    color: palevioletred;
+    background-color: rgb(0, 0, 0);
+    color: #c30d23;
     
 }
 
@@ -46,9 +48,9 @@
 }
 
 .path li a{
-    /* color: #888; */
     text-decoration: none;
     font-size: 15px;
+    color: #313332;
 }
 
 .path li + li::before{
@@ -72,7 +74,7 @@
     width: 50%;
 }
 
-.about .pic img {
+.about .pic img{
     width: 100%;
 }
 
@@ -90,21 +92,20 @@
     margin:0 1%;
 }
 
-
 h2{
     text-align: center;
     font-size: 40px;
     margin-bottom:20px;
-    animation: 'colorful' 4s ease-in-out infinite;
-    -webkit-animation: 'colorful' 4s ease-in-out infinite;
+    animation: 'colorful' 2s alternate infinite;
+    -webkit-animation: 'colorful' 2s alternate infinite;
 }
 
 @keyframes colorful{
-    0%{color: red;}
-    25%{color: rgb(255, 119, 119);}
-    50%{color: rgb(255, 255, 255);}
-    75%{color: rgb(255, 119, 119);}
-    100%{color: red;}
+    0%{color: #c30d23;}
+    50%{color: #cf3d4e;}
+    100%{color: #e18691;}
+    /* 75%{color: rgb(255, 119, 119);}
+    100%{color: red;} */
 }
 
 .news{
@@ -114,7 +115,7 @@ h2{
 
 .news .text{
     width: 50%;
-    border: 2px dashed palevioletred;
+    border: 2px dashed #e18691;
     padding: 10px;
     margin: 0 5px;
     display: flex;
@@ -132,7 +133,7 @@ h2{
 }
 
 .news nav{
-    background-color: rgba(239, 162, 188, 0.539);
+    background-color: rgba(195, 13, 35, 0.3);
     padding: 10px;
 }
 
@@ -142,11 +143,11 @@ h2{
 }
 
 .news li >a:hover {
-    color: palevioletred
+    color: #e18691
 }
 
 .news li{
-    border-bottom:2px dotted palevioletred;
+    border-bottom:2px dotted #e18691;
     line-height: 1.5em;
     font-size: 18px;
     padding:10px 0;
@@ -167,9 +168,10 @@ h2{
 .wrap> h2{
     width: 100%;
     text-align: center;
-    background-color: plum; 
+    background-color: #cf3d4e; 
     animation: none;
-    padding: 4px;
+    padding: 5px 0;
+    color: aliceblue;
 }
 
 .product .wrap{
@@ -192,7 +194,7 @@ h2{
 }
 .footer{
     text-align: center;
-    color: #888;
+    color: #313332;
     padding: 10px 0;
-    background-color: beige;
+    background-color: #e18691;
 }
