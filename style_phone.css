@@ -1,0 +1,140 @@
+.banner{
+    width: 100%;
+}
+
+.banner img{
+    width: 100%;
+    vertical-align: bottom;
+}
+
+.wrap{
+    width: 100%;
+    text-align: center;
+}
+
+.aboutus, .news{
+    width: 100%;
+    margin: 0 auto 10px auto;
+}
+
+.aboutus .pic,.news .pic{
+    width: 100%;
+    margin: 0 auto;
+}
+
+.aboutus .text >p{
+    margin: 0 10px;
+    text-align: start;
+    font-size: 20px;
+    color: #c30d23;
+    line-height: 1.3em;
+}
+
+.aboutus ,.news a{
+    text-decoration: none;
+}
+
+.news a{
+    color: #e18691;
+}
+
+.aboutus h2{
+    font-size: 28px;
+    color: #c30d23;
+}
+
+.text h2{
+    font-size: 28px;
+}
+
+.news .text >nav{
+    text-align: center;
+}
+
+.news .text >li{
+    list-style:none;
+    text-decoration: underline 2px dashed;
+    font-size: 20px;
+    text-align: start;
+    margin: 0 10px;
+    line-height: 1.5em;
+    color: #e18691;
+}
+
+.news{
+    margin-top: 30px;
+}
+
+.news .text >li::before{
+    content: "#";
+}
+
+.product , .item{
+    width: 100%;
+}
+
+.item h3{
+    font-size: 18px;
+    margin: 5px 0 10px 0;
+}
+
+.footer{
+    text-align: center;
+    color: #313332;
+    padding: 10px 0;
+    background-color: #e18691;
+}
+
+@media screen and (min-width:768px){
+    .wrap{
+        width: 100%;
+        display: flex;
+        margin: 0 auto;
+    }
+
+    .aboutus .pic{
+        width: 50%;
+        padding: 20px 0 10px 10px;
+    }
+
+    .aboutus .pic >img{
+        width: 100%;
+    }
+
+    .aboutus .text{
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        line-height: 1.5em;
+        font-size: 18px;
+        margin: 0 10px;
+        padding: 10px 0;
+    }
+
+    .news .text{
+        width: 50%;
+    }
+
+    .news .pic{
+        width: 50%;
+        padding: 10px;
+    }
+
+    .news .pic>img{
+        width: 100%;
+    }
+
+    .news nav{
+        padding: 10px;
+    }
+
+    .news .text li{
+        border-bottom:2px dotted #e18691;
+        line-height: 1.5em;
+        font-size: 18px;
+        padding:5px 0 0 0;
+        width: 100%;
+        text-decoration: none;
+    }
+}
