@@ -63,6 +63,11 @@
     font-size: 20px;
 }
 
+.menu_option a:hover{
+    color: #313332;
+    text-align: end;
+}
+
 #check_btn:checked ~ .header .menu_option{
     left: 0px;
 }
@@ -86,7 +91,12 @@
     margin: 0 auto 10px auto;
 }
 
-.aboutus .pic,.news .pic{
+.aboutus .pic{
+    width: 100%;
+    margin: 0 auto;
+}
+
+.news .pic{
     width: 100%;
     margin: 0 auto;
 }
